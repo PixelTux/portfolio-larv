@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        @vite('resources/css/app.css')
+        @vite(['./resources/css/app.css', './resources/js/app.js '])
     </head>
     <body>
         <h1 class="text-3xl font-light underline">
@@ -20,5 +20,10 @@
                 The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
             </p>
         </div>
+        <div x-data="{ count: 0 }">
+            <button x-on:click="count++">Increment</button>  
+            <span x-text="count"></span>
+        </div>
+        <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
     </body>
 </html>
