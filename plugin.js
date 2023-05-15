@@ -449,6 +449,7 @@ module.exports = plugin(
       },
       extend: {
         colors: {
+          // portfolio palette start
           "port-primary": "#54B435",
           "port-secondary": "#F6F6F6",
           "port-secondary-dark": "#161616" ,
@@ -456,6 +457,8 @@ module.exports = plugin(
           "port-body-colorDark": "#0D0D0D",
           "port-text": "#020202",
           "port-dext-dark": "#FFFFFF",
+          // portfolio palette end
+          
           dark: "#090E34",
           "dark-700": "#090e34b3",
           primary: "#3056D3",
