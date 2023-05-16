@@ -456,7 +456,7 @@ module.exports = plugin(
           "port-body-color": "#FFFFFF",
           "port-body-colorDark": "#0D0D0D",
           "port-text": "#020202",
-          "port-dext-dark": "#FFFFFF",
+          "port-text-dark": "#FFFFFF",
           // portfolio palette end
           
           dark: "#090E34",

@@ -1,3 +1,11 @@
-<div>
-    <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-</div>
+<button
+    {{ $attributes->merge(['id' => 'navbarToggler', 'class' => 'ring-port-secondary-dark dark:ring-port-secondary absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] focus:ring-1 lg:hidden'])}}
+    {{-- @click="navbarOpen = !navbarOpen"
+    :class="navbarOpen && 'navbarTogglerActive' "
+    id="navbarToggler"
+    class="ring-port-secondary-dark dark:ring-port-secondary absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] focus:ring-2 lg:hidden" --}}
+>
+    <span class="bg-port-primary relative my-[6px] block h-[2px] w-[30px]"></span>
+    <span class="bg-port-primary relative my-[6px] block h-[2px] w-[30px]"></span>
+    <span class="bg-port-primary relative my-[6px] block h-[2px] w-[30px]"></span>
+</button>

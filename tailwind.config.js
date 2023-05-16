@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'permarker': ['Permanent Marker'],
+    }
   },
   plugins: [require("./plugin")],
 }
