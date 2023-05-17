@@ -21,7 +21,7 @@ class="flex left-0 top-0 z-50 w-full items-center bg-port-secondary dark:bg-port
                         alt="logo"
                         class="w-[43px] lg:w-[54px] hidden dark:inline-block text-port-primary"
                     />
-                    <span class="text-xl xl:text-2xl font-permarker ">PixelTux</span>
+                    <span class="text-xl xl:text-2xl font-permarker">PixelTux</span>
                 </a>
             </div>
             <div class="flex px-4 justify-between items-center w-full">
