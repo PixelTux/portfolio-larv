@@ -454,7 +454,7 @@ module.exports = plugin(
           "port-secondary": "#F6F6F6",
           "port-secondary-dark": "#161616" ,
           "port-body-color": "#FFFFFF",
-          "port-body-colorDark": "#0D0D0D",
+          "port-body-color-dark": "#0D0D0D",
           "port-text": "#020202",
           "port-text-dark": "#FFFFFF",
           // portfolio palette end
@@ -480,6 +480,7 @@ module.exports = plugin(
           purple: "#9B51E0",
         },
         boxShadow: {
+          port:"0px 35px 60px -15px rgba(84,180,53,0.3)",
           two: "0px 1px 4px rgba(0, 0, 0, 0.12)",
           three: "0px 1px 5px rgba(0, 0, 0, 0.14)",
           four: "0px 4px 10px rgba(0, 0, 0, 0.12)",

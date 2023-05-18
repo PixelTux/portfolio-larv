@@ -1,4 +1,4 @@
-<div class="mb-6 flex justify-center items-center">
+<div class="m-2 flex justify-center items-center">
     <a
         href="https://www.linkedin.com/in/luis-bolboceanu/"
         class="text-port-text dark:text-port-text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-port-text dark:border-port-text-dark hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
@@ -16,7 +16,7 @@
     </a>
     <a
         href="https://github.com/PixelTux"
-        class="text-port-text dark:text-port-text-dark hover:bg-port-text  hover:border-port-text  mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-port-text dark:border-port-text-dark hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+        class="text-port-text dark:text-port-text-dark hover:bg-[#6e40c9] hover:border-[#6e40c9] mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-port-text dark:border-port-text-dark hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
     >
         <svg
             width="30"
