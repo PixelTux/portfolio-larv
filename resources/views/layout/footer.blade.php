@@ -4,7 +4,7 @@
         
         <div class="flex-col items-center">
             <div class="text-center font-permarker text-xl xl:text-2xl ">Luis Bolboceanu</div>
-            <x-social-icons></x-social-icons>
+            <x-social-icons/>
         </div>
     </div>
 </footer>

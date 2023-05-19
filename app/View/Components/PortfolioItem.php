@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Home;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class portfolio extends Component
+class PortfolioItem extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(public string $title, public array $categories, public string $image, public string $link)
     {
         //
     }
@@ -21,6 +21,6 @@ class portfolio extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.home.portfolio');
+        return view('components.portfolio-item');
     }
 }

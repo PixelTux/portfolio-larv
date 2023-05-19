@@ -1,15 +1,15 @@
 <!-- ====== About Section Start -->
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-port-body-color dark:bg-port-body-color-dark">
+<div class="relative pt-20 lg:pt-28 pb-32 bg-port-body-color dark:bg-port-body-color-dark">
     <div class="container">
-        <div class="flex flex-wrap-reverse justify-around ">
-            <div class="w-full lg:w-2/5 ">
-                <div class="flex flex-col items-center justify-center ">
+        <div class="flex flex-wrap-reverse justify-around lg:items-center ">
+            <div class="w-full lg:w-2/5 mt-2">
+                <div class="flex flex-col items-center justify-center pt-14 lg:pt-0">
                     <div class="relative z-10 pt-11 lg:pt-0">
                         <div class="absolute inset-2 mt-10 lg:mt-0">
                             <img 
                                 src="{{ url('/img/resume.png')}}" 
                                 alt="resume"
-                                class="mx-5 max-w-[200px] origin-bottom opacity-20 rotate-[3deg] shadow-lg shadow-dark rounded-lg dark:opacity-5">
+                                class="mx-5 max-w-[200px] origin-bottom opacity-20 rotate-[3deg] shadow-lg shadow-dark rounded-lg dark:opacity-10">
                                 
                             </div>
                             <div class="relative z-10">
@@ -29,7 +29,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-full lg:w-3/5 px-4 ">
+            <div class="w-full lg:w-3/5 px-4">
                 <div class="about-content">
                     <div class="flex">
                         <p class="text-xs lg:text-base">ABOUT</p>

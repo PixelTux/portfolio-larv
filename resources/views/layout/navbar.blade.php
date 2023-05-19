@@ -5,7 +5,7 @@ x-data="
                 navbarOpen: false
             }
         "
-class="flex left-0 top-0 z-50 w-full items-center bg-port-secondary dark:bg-port-secondary-dark h-18 lg:h-24 shadow-md"
+    class="flex left-0 top-0 z-50 w-full items-center bg-port-secondary dark:bg-port-secondary-dark h-18 lg:h-24 shadow-md"
 >
     <div class="container mx-auto">
         <div class="relative -mx-4 flex items-center justify-between">
