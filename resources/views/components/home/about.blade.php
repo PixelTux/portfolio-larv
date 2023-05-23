@@ -3,7 +3,7 @@
     <div class="container">
         <div class="flex flex-wrap-reverse justify-around lg:items-center ">
             <div class="w-full lg:w-2/5 mt-2">
-                <div class="flex flex-col items-center justify-center pt-14 lg:pt-0">
+                <div class="flex flex-col items-center justify-center pt-3 lg:pt-0">
                     <div class="relative z-10 pt-11 lg:pt-0">
                         <div class="absolute inset-2 mt-10 lg:mt-0">
                             <img 
@@ -32,8 +32,8 @@
             <div class="w-full lg:w-3/5 px-4">
                 <div class="about-content">
                     <div class="flex">
-                        <p class="text-xs lg:text-base">ABOUT</p>
-                        <span class="my-auto ml-2 h-0.5 w-32 block bg-port-text dark:bg-port-text-dark"></span>
+                        <p class="text-xs lg:text-base font-semibold">ABOUT</p>
+                        <span class="my-auto ml-2 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
                     </div>
                     <h1 class="font-permarker text-port-primary text-[1.4em] lg:text-xl">
                         Luis Bolboceanu
@@ -44,8 +44,8 @@
                         I am always looking for opportunities to expand my horizons and grow both personally and professionally.
                     </p>
                     <div class="flex mt-7">
-                        <p class="text-xs lg:text-base">SKILS</p>
-                        <span class="my-auto ml-5 h-0.5 w-32 block bg-port-text dark:bg-port-text-dark"></span>
+                        <p class="text-xs lg:text-base font-semibold">SKILS</p>
+                        <span class="my-auto ml-5 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
                     </div>
                     <div class="flex flex-wrap justify-between mt-2">
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">

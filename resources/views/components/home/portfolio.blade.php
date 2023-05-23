@@ -3,30 +3,31 @@
     id="portfolio"
     x-data="{
                 selectedTab: 'all',
-                activeClasses: 'bg-port-primary text-port-text-dark dark:text-port-text',
-                inactiveClasses: ' hover:bg-port-primary hover:text-port-text-dark hover:dark:text-port-text',
+                activeClasses: 'underline decoration-port-primary font-semibold',
+                inactiveClasses: 'hover:underline hover:decoration-port-primary hover:font-semibold',
             }"
-    class="pt-16 lg:pt-28 pb-12 lg:pb-20 bg-port-secondary dark:bg-port-secondary-dark"
+    class="pt-16 lg:pt-28 pb-12 lg:pb-28 bg-port-secondary dark:bg-port-secondary-dark"
 >
 <div class="container">
     <div class="flex flex-wrap -mx-4">
         <div class="w-full px-4">
-            <div class="text-center mx-auto mb-4 max-w-lg">
-                <h2 class="font-bold font-permarker text-xl lg:text-3xl text-port-primary">
-                    Some Projects 
-                </h2>
-                <p class="text-xs lg:text-base">and more coming soon!</p>
+            <div class="flex-col ">
+                <div class="flex justify-center ">
+                    <p class="text-xs lg:text-base font-semibold">WORK</p>
+                    <span class="my-auto ml-2 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
+                </div>
+                <p class="text-xs lg:text-sm text-center">more coming soon!</p>
             </div>
         </div>
     </div>
-    <div class="flex flex-wrap justify-center -mx-4">
+    <div class="flex flex-wrap justify-center -mx-4 mt-6">
         <div class="w-full px-4">
             <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                 <li class="mb-1">
                     <button
                         @click="selectedTab = 'all'"
                         :class="selectedTab === 'all' ? activeClasses : inactiveClasses"
-                        class="inline-block py-1 lg:py-2 px-3 lg:px-4 rounded-lg text-xs lg:text-sm font-semibold text-center transition"
+                        class="inline-block py-1 lg:py-2 px-3 lg:px-4 rounded-lg text-xs lg:text-sm text-center transition"
                     >
                         All Projects
                     </button>
@@ -36,7 +37,7 @@
                         <button
                         @click="selectedTab = '{{$tab}}'"
                         :class="selectedTab ==='{{$tab}}' ? activeClasses : inactiveClasses"
-                        class="inline-block py-1 lg:py-2 px-3 lg:px-4 rounded-lg text-xs lg:text-sm font-semibold text-center transition"
+                        class="inline-block py-1 lg:py-2 px-3 lg:px-4 rounded-lg text-xs lg:text-sm text-center transition"
                         >
                             {{$tab}}
                         </button>
@@ -45,7 +46,7 @@
             </ul>
         </div>
     </div>
-    <div class="flex flex-wrap -mx-4 justify-around">
+    <div class="flex flex-wrap mx-4 justify-around">
         @foreach ($items as $item)
             <x-portfolio-item
                 :title="$item['title']"
