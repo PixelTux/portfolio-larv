@@ -3,8 +3,7 @@
     <div class="container flex justify-center">
         
         <div class="flex-col items-center">
-            <div class="text-center font-permarker text-xl xl:text-2xl ">Luis Bolboceanu</div>
-            <x-social-icons/>
+            <div class="text-center font-permarker text-xl xl:text-2xl ">PixelTux</div>
         </div>
     </div>
 </footer>
