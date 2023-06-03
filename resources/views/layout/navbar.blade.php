@@ -21,7 +21,7 @@ x-data="
                         alt="logo"
                         class="w-[43px] lg:w-[54px] hidden dark:inline-block text-port-primary"
                     />
-                    <span class="text-xl xl:text-2xl font-permarker">PixelTux</span>
+                    <span class="text-xl xl:text-2xl font-permarker">{{ config('app.name') }}</span>
                 </a>
             </div>
             <div class="flex px-4 justify-between items-center w-full">
@@ -40,7 +40,6 @@ x-data="
                             </x-layout.navbar-item>
                         @endforeach
                     </ul>
-
                 </nav>
             </div>
 

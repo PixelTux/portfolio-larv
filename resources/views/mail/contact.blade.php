@@ -7,7 +7,7 @@ This is an automatic email response to let you know that your message has been r
 We appreciate your interest and will make sure to respond as soon as possible.
 
 Best regards, \
-Luis from [{{ env('APP_NAME') }}]({{env('APP_URL')}})
+Luis from [{{ config('app.name') }}]({{ config('app.url') }})
 
 @component('mail::panel')
 

@@ -33,7 +33,7 @@ class ContactFormMailable extends Mailable implements ShouldQueue
     {
         return new Envelope(
             from: new Address(env('MAIL_FROM_ADDRESS') , env('MAIL_FROM_NAME')),
-            subject: 'Thank you for reaching out pixeltux.com!',
+            subject: 'Thank you for reaching out '. config('app.name') .'!',
             to: $this->contact['email'],
         );
     }
