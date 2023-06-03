@@ -1,5 +1,9 @@
 <?php
 
+use App\Mail\ContactFormMailable;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
+});
+
+Route::post('/contact', function (Request $request) {
+
+    Mail::send(new ContactFormMailable($request));
 });

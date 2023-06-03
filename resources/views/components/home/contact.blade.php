@@ -6,8 +6,8 @@
             <span class="my-auto ml-2 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
         </div>
         <div class="flex flex-wrap lg:justify-between mx-4">
-            <div class="w-full lg:w-2/5 px-4">
-                <div class="flex justify-start items-center my-5">
+            <div class="w-full lg:w-2/5 px-4 my-12">
+                <div class="flex justify-start items-center pb-5">
                     <span class=" mr-4 text-xl xl:text-2xl font-permarker text-port-primary">
                         Let's Talk
                     </span>
@@ -44,12 +44,10 @@
                     </div>                    
                 </div>
             </div>
-            <div class="w-full lg:w-3/5 px-4">
-                <div x-data class="bg-port-secondary dark:bg-port-secondary-dark  relative rounded-lg p-8 shadow-lg">
-                    
+            <div class="w-full lg:w-3/5 px-4 my-12">
+                <livewire:contact-form />
             </div>
         </div>
     </div>
-
 </section>
 <!-- ====== Contact Section End -->

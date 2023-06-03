@@ -170,7 +170,7 @@
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
                             <a
-                            href="https://git.kernel.org/"
+                            href="https://git-scm.com/"
                             class="drop-shadow-[0_2px_8px_rgba(232,77,49,0.55)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#E84D31] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
@@ -185,8 +185,8 @@
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
                             <a
-                            href="https://git.kernel.org/"
-                            class="drop-shadow-[0_2px_8px_rgba(255,108,14,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#FF6C0E] sm:mr-4 lg:mr-3 xl:mr-4"
+                            href="https://kernel.org/"
+                            class="drop-shadow-[0_2px_8px_rgba(255,209,51,1)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#B39223] dark:hover:text-[#FFD133] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
