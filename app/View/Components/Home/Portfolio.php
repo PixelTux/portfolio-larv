@@ -19,17 +19,24 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Vue', 'Tailwind'],
-                'title' => 'E-commerce',
-                'image' => '/img/io.png',
-                'link' => 'https://ecommerce-laravel.herokuapp.com/'
+                'category' => ['php', 'Laravel', 'JavaScript', 'CSS', 'Tailwind', 'Livewire', 'Alpinejs', 'TailGrids', 'Linux', 'Apache'],
+                'title' => 'Portfolio',
+                'image' => '/img/portfolio/PixelTux.png',
+                'link' => 'https://github.com/PixelTux/portfolio-larv'
             ],
             [
-                'category' => ['Laravel', 'Alpine.js', 'Bootstrat'],
+                'category' => ['Java', 'SpringBoot', 'Bootstrat', 'JavaScript', 'JQuery', 'CSS', 'Tomcat', 'Jetty', 'Eclipse', 'Linux'],
                 'title' => 'E-commerce',
-                'image' => '/img/io.png',
-                'link' => 'https://ecommerce-laravel.herokuapp.com/'
+                'image' => '/img/portfolio/NotEatYet.jpg',
+                'link' => 'https://github.com/laura960/not-eat-yet/'
+            ],
+            [
+                'category' => ['Python', 'Tkinter', 'Linux'],
+                'title' => 'PDF compressor',
+                'image' => '/img/portfolio/reducedPDF.png',
+                'link' => 'https://github.com/PixelTux/reducedPDF-python'
             ]
+            
         ];
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));

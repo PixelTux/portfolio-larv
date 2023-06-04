@@ -1,5 +1,5 @@
 <!-- ====== About Section Start -->
-<div class="relative pt-20 lg:pt-28 pb-32 bg-port-body-color dark:bg-port-body-color-dark">
+<div  id="about" class="relative pt-20 lg:pt-28 pb-32 bg-port-body-color dark:bg-port-body-color-dark">
     <div class="container">
         <div class="flex flex-wrap-reverse justify-around lg:items-center ">
             <div class="w-full lg:w-2/5 mt-2">
@@ -20,8 +20,8 @@
                                 class="mx-5 max-w-[200px] origin-bottom -rotate-[3deg] shadow-lg shadow-neutral-400 dark:shadow-neutral-700 rounded-lg dark:opacity-90">
                         </div>
                     </div>
-                    <a
-                    href="https://drive.google.com/file/d/18G0pZmtSCmoA4Ot1eUeI0esnzmjQG9DN/view?usp=sharing"
+                    <a target="_blank"
+                    href="https://drive.proton.me/urls/W1QMBDSM18#ie2PmwzA09ue"
                     target="_blank"
                     class="mt-8 bg-port-primary inline-flex items-center justify-center rounded-full py-2 px-5 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-4 xl:px-5"
                     >
@@ -39,9 +39,7 @@
                         Luis Bolboceanu
                     </h1>
                     <p class="mt-6">
-                        I am a curious and enthusiastic individual with a passion for learning and exploring. 
-                        Whether it's diving into a new topic through books or seeking out new experiences in different cultures and places, 
-                        I am always looking for opportunities to expand my horizons and grow both personally and professionally.
+                        I'm a curious, enthusiastic individual with a passion for learning and exploring. Whether diving into new subjects or seeking diverse experiences, I'm driven to expand my horizons and grow. As a software developer, I excel in analytical thinking, problem-solving, and organising teams. Quick to adapt to technology, I deliver quality solutions. Balancing productivity and emotional dynamics is crucial to  raising a positive team environment.
                     </p>
                     <div class="flex mt-7">
                         <p class="text-xs lg:text-base font-semibold">SKILS</p>
@@ -49,9 +47,9 @@
                     </div>
                     <div class="flex flex-wrap justify-between mt-2">
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://www.php.net/"
-                            class="drop-shadow-[0_2px_8px_rgba(119,123,179,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#777BB3] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(119,123,179,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#777BB3] dark:hover:text-[#777BB3] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="50"
@@ -67,9 +65,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://www.javascript.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(252,220,0,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#FCDC00] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(252,220,0,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#FCDC00] dark:hover:text-[#FCDC00] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -85,9 +83,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://tailwindcss.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(56,189,248,0.99)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#38BDF8] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(56,189,248,0.99)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#38BDF8] dark:hover:text-[#38BDF8] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -103,9 +101,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://getbootstrap.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(115,48,249,0.65)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#7330F9] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(115,48,249,0.65)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#7330F9] dark:hover:text-[#7330F9] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -121,9 +119,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://laravel.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(242,59,47,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#F23B2F] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(242,59,47,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#F23B2F] dark:hover:text-[#F23B2F] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -139,9 +137,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://github.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(110,64,201,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#6e40c9] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(110,64,201,0.85)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#6e40c9] dark:hover:text-[#6e40c9] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -157,9 +155,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://bitbucket.org/"
-                            class="drop-shadow-[0_2px_8px_rgba(38,132,255,0.33)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#2684FF] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(38,132,255,0.33)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#2684FF] dark:hover:text-[#2684FF] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -175,9 +173,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://www.docker.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(38,132,255,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#2684FF] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(38,132,255,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#2684FF] dark:hover:text-[#2684FF] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -193,9 +191,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://git-scm.com/"
-                            class="drop-shadow-[0_2px_8px_rgba(232,77,49,0.55)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#E84D31] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(232,77,49,0.55)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#E84D31] dark:hover:text-[#E84D31] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -211,7 +209,7 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://kernel.org/"
                             class="drop-shadow-[0_2px_8px_rgba(255,209,51,1)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#B39223] dark:hover:text-[#FFD133] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
@@ -229,9 +227,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://www.apple.com/macos/"
-                            class="drop-shadow-[0_2px_8px_rgba(165,183,203,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#A5B7CB] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(165,183,203,0.75)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#A5B7CB] dark:hover:text-[#A5B7CB] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"
@@ -247,9 +245,9 @@
                             </a>
                         </div>
                         <div class="basis-1/4 mt-1 flex justify-center lg:justify-start">
-                            <a
+                            <a target="_blank"
                             href="https://www.microsoft.com/en-us/windows/"
-                            class="drop-shadow-[0_2px_8px_rgba(0,182,240,0.95)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#00B6F0] sm:mr-4 lg:mr-3 xl:mr-4"
+                            class="drop-shadow-[0_2px_8px_rgba(0,182,240,0.95)] hover:drop-shadow-none text-port-text dark:text-port-text-dark mr-3 flex h-8 w-8 items-center justify-center hover:text-[#00B6F0] dark:hover:text-[#00B6F0] sm:mr-4 lg:mr-3 xl:mr-4"
                             >
                                 <svg
                                 width="24"

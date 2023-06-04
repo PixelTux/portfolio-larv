@@ -5,7 +5,7 @@
 >
     <div class="relative mb-6">
         <a href="{{$link}}" target="_blank">
-        <div class="rounded-lg overflow-hidden ease-in duration-100 hover:scale-105">
+        <div class="rounded-lg border border-port-primary border-opacity-10 overflow-hidden ease-in duration-100 hover:scale-105">
             <img
                 src="{{ $image }}"
                 alt="portfolio"
@@ -22,7 +22,7 @@
                 {{ $title }}
             </h3>
             <a
-            href="https://drive.google.com/file/d/18G0pZmtSCmoA4Ot1eUeI0esnzmjQG9DN/view?usp=sharing"
+            href="{{ $link }}"
             target="_blank"
             class="mt-8 bg-port-primary inline-flex items-center justify-center rounded-full py-2 px-5 text-center text-base font-normal text-white hover:bg-opacity-95 lg:px-4 xl:px-5"
             >
