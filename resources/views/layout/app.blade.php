@@ -1,5 +1,11 @@
 <!doctype html>
-<html>
+<html x-data="{ darkMode: false }" 
+    x-init="if (!('darkMode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                localStorage.setItem('darkMode', JSON.stringify(true));
+            }
+            darkMode = JSON.parse(localStorage.getItem('darkMode'));
+            $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))" 
+            x-cloak>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +13,16 @@
         @livewireStyles
     </head>
 
-    <body class="antialiased text-port-text dark:text-port-text-dark min-w-[280px] flex flex-col min-h-screen">
-        <x-layout.navbar/>
-        <main class="flex-grow ">
-            {{ $slot }}
-        </main>
-        
-        <x-layout.footer/>
-        @livewireScripts
+    <body x-bind:class="{'dark' : darkMode === true}">
+        <div  class="antialiased text-port-text dark:text-port-text-dark min-w-[280px] flex flex-col min-h-screen">
+            <x-layout.navbar/>
+            <main class="flex-grow ">
+                {{ $slot }}
+            </main>
+            
+            <x-layout.footer/>
+            @livewireScripts
+        </div>
     </body>
 </html>
 
