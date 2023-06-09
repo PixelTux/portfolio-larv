@@ -15,8 +15,8 @@ class ContactForm extends Component
     public $successMessage;
     protected $rules = [
         'name' => 'required',
-        'email' => 'required|email',
-        'phone' => 'required|digits_between:4,12',
+        'email' => 'required|email:rfc,dns',
+        'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|between:4,17',
         'message' => 'required|min:5',
     ];
 

@@ -9,8 +9,8 @@
                     alt="me"
                     class="w-40 lg:w-52 rounded-full border-4 border-port-body-color dark:border-port-body-color-dark"
                     />
-                    <span class="text-xl xl:text-2xl font-permarker text-port-primary">Luis B.</span>
-                    <span class="text-sm xl:text-base">I am a Web Developer</span>
+                    <span class="text-xl xl:text-2xl font-permarker text-port-primary">{{ env('INFO_NAME_SLUG')}}</span>
+                    <span class="text-sm xl:text-base">{{ env('INFO_SLOGAN') }}</span>
                     <x-social-icons/>
                 </div>
             </div>

@@ -36,13 +36,13 @@
                         <span class="my-auto ml-2 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
                     </div>
                     <h1 class="font-permarker text-port-primary text-[1.4em] lg:text-xl">
-                        Luis Bolboceanu
+                        {{ env('INFO_NAME') }}
                     </h1>
                     <p class="mt-6">
-                        I'm a curious, enthusiastic individual with a passion for learning and exploring. Whether diving into new subjects or seeking diverse experiences, I'm driven to expand my horizons and grow. As a software developer, I excel in analytical thinking, problem-solving, and organising teams. Quick to adapt to technology, I deliver quality solutions. Balancing productivity and emotional dynamics is crucial to  raising a positive team environment.
+                        {{ env('INFO_ABOUT') }}
                     </p>
                     <div class="flex mt-7">
-                        <p class="text-xs lg:text-base font-semibold">SKILS</p>
+                        <p class="text-xs lg:text-base font-semibold">SKILLS</p>
                         <span class="my-auto ml-5 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
                     </div>
                     <div class="flex flex-wrap justify-between mt-2">
