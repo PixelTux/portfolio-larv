@@ -20,13 +20,9 @@
                                 class="mx-5 max-w-[200px] origin-bottom -rotate-[3deg] shadow-lg shadow-neutral-400 dark:shadow-neutral-700 rounded-lg dark:opacity-90">
                         </div>
                     </div>
-                    <a target="_blank"
-                    href="https://drive.proton.me/urls/8AR8R97KV8#Ft2BcD73hM9Z"
-                    target="_blank"
-                    class="mt-8 bg-port-primary inline-flex items-center justify-center rounded-full py-2 px-5 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-4 xl:px-5"
-                    >
-                        Download CV
-                    </a>
+                    <x-button-link href="{{ env('INFO_ABOUT_BT_LINK') }}" target="_self">
+                        {{ env("INFO_ABOUT_BT_NAME")}}
+                    </x-button-link>
                 </div>
             </div>
             <div class="w-full lg:w-3/5 px-4">

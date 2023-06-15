@@ -13,7 +13,7 @@
         <div class="w-full px-4">
             <div class="flex-col ">
                 <div class="flex justify-center ">
-                    <p class="text-xs lg:text-base font-semibold">Projects</p>
+                    <p class="text-xs lg:text-base font-semibold">PROJECTS</p>
                     <span class="my-auto ml-2 h-1 w-32 block bg-port-text dark:bg-port-text-dark"></span>
                 </div>
                 <p class="text-xs lg:text-sm text-center">more coming soon!</p>
